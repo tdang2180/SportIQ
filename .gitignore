@@ -1,1 +1,24 @@
 .sport_iq/
+.env
+.env.local
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+apps/api/.venv/
+apps/api/.env
+apps/api/sportiq.db
+apps/api/*.db
+
+# Node / Next
+node_modules/
+apps/web/.next/
+apps/web/out/
+
+# Runtime / generated
+data/cache/
+data/briefs/
+logs/
+*.log
+.DS_Store

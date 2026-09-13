@@ -1,0 +1,106 @@
+{
+  "games": [
+    {
+      "game_id": "LAL-BOS-2024-12-15",
+      "home_team": "Lakers",
+      "away_team": "Celtics",
+      "game_date": "2024-12-15",
+      "home_score": 108,
+      "away_score": 112,
+      "box_score": {
+        "home": {
+          "team": "Lakers",
+          "pts": 108,
+          "reb": 42,
+          "ast": 24,
+          "tov": 18,
+          "fg_pct": 0.44,
+          "leaders": [
+            { "player": "LeBron James", "pts": 28, "reb": 8, "ast": 9 },
+            { "player": "Anthony Davis", "pts": 26, "reb": 12, "ast": 3 }
+          ]
+        },
+        "away": {
+          "team": "Celtics",
+          "pts": 112,
+          "reb": 45,
+          "ast": 27,
+          "tov": 11,
+          "fg_pct": 0.47,
+          "leaders": [
+            { "player": "Jayson Tatum", "pts": 32, "reb": 9, "ast": 5 },
+            { "player": "Jaylen Brown", "pts": 24, "reb": 6, "ast": 4 }
+          ]
+        }
+      }
+    },
+    {
+      "game_id": "GSW-DEN-2024-12-10",
+      "home_team": "Warriors",
+      "away_team": "Nuggets",
+      "game_date": "2024-12-10",
+      "home_score": 119,
+      "away_score": 124,
+      "box_score": {
+        "home": {
+          "team": "Warriors",
+          "pts": 119,
+          "reb": 40,
+          "ast": 30,
+          "tov": 14,
+          "fg_pct": 0.48,
+          "leaders": [
+            { "player": "Stephen Curry", "pts": 35, "reb": 4, "ast": 8 },
+            { "player": "Draymond Green", "pts": 12, "reb": 9, "ast": 10 }
+          ]
+        },
+        "away": {
+          "team": "Nuggets",
+          "pts": 124,
+          "reb": 48,
+          "ast": 29,
+          "tov": 10,
+          "fg_pct": 0.51,
+          "leaders": [
+            { "player": "Nikola Jokic", "pts": 31, "reb": 14, "ast": 12 },
+            { "player": "Jamal Murray", "pts": 28, "reb": 4, "ast": 6 }
+          ]
+        }
+      }
+    },
+    {
+      "game_id": "NYK-MIA-2024-12-08",
+      "home_team": "Knicks",
+      "away_team": "Heat",
+      "game_date": "2024-12-08",
+      "home_score": 101,
+      "away_score": 98,
+      "box_score": {
+        "home": {
+          "team": "Knicks",
+          "pts": 101,
+          "reb": 46,
+          "ast": 22,
+          "tov": 12,
+          "fg_pct": 0.43,
+          "leaders": [
+            { "player": "Jalen Brunson", "pts": 29, "reb": 3, "ast": 7 },
+            { "player": "Karl-Anthony Towns", "pts": 22, "reb": 11, "ast": 2 }
+          ]
+        },
+        "away": {
+          "team": "Heat",
+          "pts": 98,
+          "reb": 41,
+          "ast": 20,
+          "tov": 15,
+          "fg_pct": 0.42,
+          "leaders": [
+            { "player": "Jimmy Butler", "pts": 26, "reb": 6, "ast": 5 },
+            { "player": "Bam Adebayo", "pts": 18, "reb": 10, "ast": 4 }
+          ]
+        }
+      }
+    }
+  ]
+}
