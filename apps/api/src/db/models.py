@@ -51,10 +51,10 @@ class Brief(SQLModel, table=True):
     )
 
 
-class Run(SQLModel, table=True):
-    """Audit log for one pipeline run (good for interviews / debugging)."""
+class PipelineLog(SQLModel, table=True):
+    """Audit log for one pipeline execution (good for interviews / debugging)."""
 
-    __tablename__ = "runs"
+    __tablename__ = "pipeline_logs"
 
     id: int | None = Field(default=None, primary_key=True)
     user_id: int = Field(foreign_key="users.id", index=True)

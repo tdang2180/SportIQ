@@ -1,3 +1,3 @@
-from domain.pipeline.orchestrator import run_pipeline
+from domain.pipeline.orchestrator import run_pipeline, save_brief
 
-__all__ = ["run_pipeline"]
+__all__ = ["run_pipeline", "save_brief"]
